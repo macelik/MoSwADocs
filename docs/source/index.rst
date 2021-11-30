@@ -15,7 +15,7 @@ You can simply upload your aligned file to `MoSwA Web <http://moswa.bioinfo.perd
 which offers a *simple* and *intuitive* usage.
 
 Check out the :doc:`usage` section for further information, including
-how to stand alone :ref:`installation` of MoSwA.
+how to stand alone :ref:`_webservice` of MoSwA.
 
 
 Contents
