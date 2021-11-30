@@ -20,10 +20,10 @@ In the example below, there are 4 sequences from position 115 to 126. If we are 
 
 Install Standalone
 ------------------
-MoSwA requires python>=3.6. To clone the repo and install the requirements of MoSwA, type the following in your terminal:
-
 .. note::
    These instructions assume you have Python and a C/C++ Compiler on your computer.
+
+MoSwA requires python>=3.6. To clone the repo and install the requirements of MoSwA, type the following in your terminal:
 
 .. code-block:: bash
 
