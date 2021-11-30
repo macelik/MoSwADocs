@@ -1,7 +1,7 @@
 Usage
 =====
 
-.. _Webservice:
+.. _webservice:
 
 Installation
 ------------
