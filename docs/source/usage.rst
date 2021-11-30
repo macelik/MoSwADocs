@@ -1,18 +1,18 @@
 Usage
 =====
 
-.. _installation:
+.. _Webservice:
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+All you need to do is upload your aligned fasta file to `MoSwA WebService <http://moswa.bioinfo.perdanauniversity.edu.my/>`_
 
 .. code-block:: console
 
    (.venv) $ pip install lumache
 
-Creating recipes
+Stand Alone Installation and Usage
 ----------------
 
 To retrieve a list of random ingredients,
