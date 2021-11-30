@@ -19,22 +19,42 @@ In the example below, there are 4 sequences from position 115 to 126. If we are 
 .. _install:
 
 Install Standalone
-----------------------------------
+------------------
+MoSwA requires python>=3.6. To clone the repo and install the requirements of MoSwA, type the following in your terminal:
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+.. note::
+   These instructions assume you have Python and a C/C++ Compiler on your computer.
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: bash
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+   git clone https://github.com/macelik/MoSwA.git
+   pip install -r requirements.txt
 
-.. autoexception:: lumache.InvalidKindError
+MoSwA utilizes PyGraphviz library which is a Python interface to the Graphviz graph layout and visualization package. Thus, Graphviz needs to be installed before PyGraphviz.
 
-For example:
+* Ubuntu/Debian:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+.. code-block:: bash
+
+   sudo apt-get install graphviz graphviz-dev
+   pip install pygraphviz
+   
+* macOS:
+
+.. code-block:: bash
+
+   brew install graphviz
+   pip install pygraphviz
+   
+* Windows:
+Download and install Graphviz:
+
+`stable_windows_10_cmake_Release_x64_graphviz-install-2.46.0-win64.exe <https://gitlab.com/graphviz/graphviz/-/package_files/6164164/download/>`_
+
+After that install Pygraphviz via typing the following in the PowerShell or Command Prompt
+
+.. code-block:: bash
+
+   python -m pip install --global-option=build_ext --global-option="-IC:\Program Files\Graphviz\include" --global-option="-LC:\Program Files\Graphviz\lib" pygraphviz
+
 
