@@ -47,8 +47,8 @@ MoSwA utilizes PyGraphviz library which is a Python interface to the Graphviz gr
    pip install pygraphviz
    
 * Windows:
-Download and install Graphviz:
 
+Download and install Graphviz:
 
 `stable_windows_10_cmake_Release_x64_graphviz-install-2.46.0-win64.exe <https://gitlab.com/graphviz/graphviz/-/package_files/6164164/download/>`_
 
