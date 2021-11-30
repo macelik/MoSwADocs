@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'MoSwA'
+copyright = '2021, Muhammet Celik'
+author = 'Muhammet Celik, Shan Tharanga, Kaushal Kumar, Mohammad Asif Khan'
 
 release = '0.1'
 version = '0.1.0'
