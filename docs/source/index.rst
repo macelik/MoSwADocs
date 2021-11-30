@@ -26,4 +26,4 @@ Contents
    :glob:
 
    usage
-   output
+   results
