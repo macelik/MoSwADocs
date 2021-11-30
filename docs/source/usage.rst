@@ -16,7 +16,7 @@ In the example below, there are 4 sequences from position 115 to 126. If we are 
 
 .. figure:: figs/low_sup_exp.png
 
-.. _installation:
+.. _install:
 
 Stand Alone Installation and Usage
 ----------------------------------
