@@ -27,4 +27,3 @@ Contents
 
    usage
    output
-   standalone
