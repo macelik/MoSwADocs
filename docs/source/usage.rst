@@ -13,7 +13,7 @@ All you need to do is upload your aligned fasta file to `MoSwA WebService <http:
    (.venv) $ pip install lumache
 
 Stand Alone Installation and Usage
-----------------
+----------------------------------
 
 To retrieve a list of random ingredients,
 you can use the ``lumache.get_random_ingredients()`` function:
