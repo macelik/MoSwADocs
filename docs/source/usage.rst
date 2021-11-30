@@ -6,7 +6,7 @@ Usage
 Web Service
 -----------
 
-All you need to do is upload your aligned fasta file to `MoSwA WebService <http://moswa.bioinfo.perdanauniversity.edu.my/>`_. There are three main parameters to be supplied, altough we have default values. 
+All you need to do is upload your multiple sequence alignment file in .fasta/.fa/.afa format to `MoSwA WebService <http://moswa.bioinfo.perdanauniversity.edu.my/>`_. There are three main parameters to be supplied, altough we have default values. 
 
    -  Motif sites: You can select any motif site(s) to be analyzed. Default is all the motifs (index,major, minor and unique) to be analyzed and reported. 
    -  k-mer size: Value to be applied for the sliding window of k. Default value is 9, simply because it is typically used for immunological applications, such as measure of antigenic diversity
