@@ -27,3 +27,4 @@ Contents
 
    usage
    results
+   algo
