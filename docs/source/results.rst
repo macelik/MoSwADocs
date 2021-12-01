@@ -1,6 +1,15 @@
 Results
 =======
 
+.. _workflow:
+
+The Overall Workflow
+--------------------
+
+The overall worflow of MoSwA is illustrated in the Figure below. MoSwA Web as well as the stand alone version will output 6 files. We will describe each of them in here. 
+
+.. figure:: figs/Fig1_v1.png
+
 .. _summary:
 
 Short Summary
