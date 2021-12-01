@@ -53,5 +53,5 @@ The network plot shows only the user defined motif sites (default is all). It sh
  
  #. Edges:
  
-    i. Splits:
-    ii. Mergers:
+    a. Splits:
+    b. Mergers:
