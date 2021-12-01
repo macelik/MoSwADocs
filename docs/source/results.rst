@@ -35,3 +35,23 @@ Users are able to view this alignment file in the short summary report, as well 
   #.  Provide users an alignment view of all the switches observed in a given dataset, referenced against a consensus sequence built from the index sequences of the k-mer positions
   
   #.  When index and major bla bla bla please visit how it works page for more detail
+  
+.. _network:
+
+Network Plot Topology
+---------------------
+
+MoSwA produces a network dot plot to illustrate the complex interaction of motif switches. You can inspect the network plot right on the MoSwA web as well as download it as html file format. MoSwA stand alone produces this as a seperate html file as well. 
+
+The network plot shows only the user defined motif sites (default is all). It should be noted that the positions with a low support value (user defined) are discarded from the network plot. The network can be divided into 4 components;
+
+ #. Downgrading Motifs: 
+ 
+ #. Upgrading Motifs:
+ 
+ #. Positions:
+ 
+ #. Edges:
+ 
+    A. Splits:
+    B. Mergers:
