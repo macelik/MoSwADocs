@@ -47,12 +47,11 @@ The network plot shows only the user defined motif sites (default is all). It sh
 
  #. Downgrading Motifs: The higher ranked motif switching to a lower rank such as Index becoming Major (denoted as I => M), Major becoming Minor (denoted as M => Mi) or any loss of the motif which occurs when a motif is present in the previous position but disappears in the subsequent position. Index motif loss is denoted as "I => -". Downgrading motifs are placed at the top of the plot as nodes and it follows a hiearchial order, from the most left to right
  
-    .. admonition:: Downgrading Motif Order
-    
-    +----------++----------++----------++----------+
-    |  I => M  ||  I => Mi ||  I => U  ||  I => -  |
-    +----------++----------++----------++----------+
-    
+ .. admonition:: Downgrading Motif Order
+ 
+  +----------++----------++----------++----------+
+  |  I => M  ||  I => Mi ||  I => U  ||  I => -  |
+  +----------++----------++----------++----------+
  
  #. Upgrading Motifs: The *vice versa* of the downgrading motifs, Major motif becoming Index in the subsequent position (denoted as M => I), Minor becoming Index (denoted as Mi => I) or any gain of the motif, contrary to motif loss. Index motif gain is denoted as "I => +". Upgrading motifs are placed at the bottom of the plot. 
  
