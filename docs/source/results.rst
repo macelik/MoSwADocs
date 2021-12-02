@@ -74,8 +74,8 @@ The network plot shows only the user defined motif sites (default is all). It sh
     The example below is to illustrate. The node that represents 336 is colored light because multiple switches are occuring while position 348 is colored dark blue because it has single switch. 
     
 .. figure:: figs/networkpos.png
-
-
+ FigureCap
+ 
  #. Edges: something
  
     a. Splits:
