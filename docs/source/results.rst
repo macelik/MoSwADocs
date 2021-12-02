@@ -25,6 +25,10 @@ You will be directed to short summary report page once the analysis is done. Add
   * The number of unique (distinctive) switches. A position can have more than one switch. (i.e: switches involving index, major, minor and unique can happen at a single position)
   * The number of total switches.
   
+An example of this part of the MoSwA report is given below. The sample file is analyzed for all the motif ranks (index, major, minor and unique). You can access the sample file and the alignment details from `here <https://github.com/macelik/MoSwADocs/blob/main/docs/source/samplefile/>`_. 
+
+.. figure:: figs/ShortSummary.PNG
+  
 .. _consensus:
 
 Alignment File
@@ -36,6 +40,10 @@ Users are able to view this alignment file in the short summary report, as well 
   
   #.  When index and major bla bla bla please visit how it works page for more detail
   
+Below is the showcase of the alignment view within the short summary page.  
+  
+.. figure:: figs/alignmentview.PNG
+ 
 .. _network:
 
 Network Plot Topology
@@ -53,11 +61,19 @@ The network plot shows only the user defined motif sites (default is all). It sh
       |  I => M  ||  I => Mi ||  I => U  ||  I => -  ||  M => Mi ||  M => U  ||  M => -  || Mi => U  || Mi => -  ||  U => -  |
       +----------++----------++----------++----------++----------++----------++----------++----------++----------++----------+
  
- #. Upgrading Motifs: The *vice versa* of the downgrading motifs, Major motif becoming Index in the subsequent position (denoted as M => I), Minor becoming Index (denoted as Mi => I) or any gain of the motif, contrary to motif loss. Index motif gain is denoted as "I => +". Upgrading motifs are placed at the bottom of the plot. 
+ #. Upgrading Motifs: The *vice versa* of the downgrading motifs, Major motif becoming Index in the subsequent position (denoted as M => I), Minor becoming Index (denoted as Mi => I) or any gain of the motif, contrary to motif loss. Index motif gain is denoted as "I => +". Upgrading motifs are placed at the bottom of the plot as nodes and just like Downgrading motifs, !!it follows the same hiearchial order!!. This allows users to easily spot the direct replacing switches.
  
- #. Positions:
+    .. admonition:: Downgrading Motif Order
  
- #. Edges:
+      +----------++----------++----------++----------++----------++----------++----------++----------++----------++----------+
+      |  M => I  ||  Mi => I ||  U => I  ||  I => +  || Mi => M  ||  U => M  ||  M => +  ||  U => Mi || Mi => +  ||  U => +  |
+      +----------++----------++----------++----------++----------++----------++----------++----------++----------++----------+
+ 
+ #. Positions: The positions involving in motif switch are laid at the center as nodes, and the color of these nodes are based on the number of edges. The more edges (switches) in the position, the lighter the color (dark blue to grey). 
+ 
+    The example below is to illustrate. 
+ 
+ #. Edges: ...
  
     a. Splits:
     b. Mergers:
