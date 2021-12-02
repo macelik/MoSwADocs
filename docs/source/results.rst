@@ -63,9 +63,17 @@ The network plot shows only the user defined motif sites (default is all). It sh
  
  #. Upgrading Motifs: The *vice versa* of the downgrading motifs, Major motif becoming Index in the subsequent position (denoted as M => I), Minor becoming Index (denoted as Mi => I) or any gain of the motif, contrary to motif loss. Index motif gain is denoted as "I => +". Upgrading motifs are placed at the bottom of the plot as nodes and just like Downgrading motifs, !!it follows the same hiearchial order!!. This allows users to easily spot the direct replacing switches.
  
- #. Positions: The positions involving in motif switch are laid at the center as nodes, and the color of these nodes are based on the number of edges. The more edges (switches) in the position, the lighter the color (dark blue to grey). 
+    .. admonition:: Upgrading Motif Order
  
-    The example below is to illustrate. 
+      +----------++----------++----------++----------++----------++----------++----------++----------++----------++----------+
+      |  M => I  || Mi => I  ||  U => I  ||  I => +  || Mi => M  ||  U => M  ||  M => +  ||  U => Mi || Mi => +  ||  U => +  |
+      +----------++----------++----------++----------++----------++----------++----------++----------++----------++----------+
+ 
+ #. Positions: The positions involving in motif switch are laid at the center as nodes, and the color of these nodes are based on the number of edges. The more edges (switches) in the position, the lighter the color (dark blue to grey). When a user hovers over the positions, an information pops up about what kind of switches are happening at the indicated position. 
+ 
+    The example below is to illustrate. The node that represents 336 is colored light because multiple switches are occuring while position 348 is colored dark blue because it has single switch. 
+    
+.. figure:: figs/Networkpos.png
  
  #. Edges: something
  
