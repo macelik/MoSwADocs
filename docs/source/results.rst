@@ -27,7 +27,7 @@ You will be directed to short summary report page once the analysis is done. Add
   
 An example of this part of the MoSwA report is given below. The sample file is analyzed for all the motif ranks (index, major, minor and unique). You can access the sample file and the alignment details from `here <https://github.com/macelik/MoSwADocs/blob/main/docs/source/samplefile/>`_. 
 
-.. figure:: figs/ShortSummary.PNG
+.. figure:: figs/shortsummary.png
   
 .. _consensus:
 
@@ -42,7 +42,7 @@ Users are able to view this alignment file in the short summary report, as well 
   
 Below is the showcase of the alignment view within the short summary page.  
   
-.. figure:: figs/alignmentview.PNG
+.. figure:: figs/alignmentview.png
  
 .. _network:
 
