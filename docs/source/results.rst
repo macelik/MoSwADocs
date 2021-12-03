@@ -84,10 +84,11 @@ The network plot shows only the user defined motif sites (default is all). It sh
     
     <embed type="text/html" src="_static/motif1.html" width="720" height="550"></embed>
     
+htmlcap
 
- #. Edges: sadas
+   4. Edges: sadas
 
-    a. Splits:
-    b. Mergers:
+       a. Splits:
+       b. Mergers:
 
- #. Legend: 
+   5. Legend: 
