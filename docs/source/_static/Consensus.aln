@@ -1,0 +1,76 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+index_consensus                     MEKIVLLLAIVSLVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILE
+index_switches                      MEKIVLLLAIVSLVKSDQICIGYHANNSTEQVDTIMEKNVTVTHAQDILE
+major_switches                      MEKIVLLL*I*SLVKSDQ*CIGYHANNSTE**DTIMEKNV*V*HAQD*LE
+minor_switches                      M***V*LL*I**L******C*GYHANN*TE***TIMEK**TVTH****LE
+unique_switches                     M****************QICIG*H*N*ST*QVDTIME**VTV**A*DI*E
+
+index_consensus                     KTHNGKLCDLDGVKPLILRDCSVAGWLLGNPMCDEFINVPEWSYIVEKiN
+index_switches                      KTHNGKLCDLDGVKPLILRDCSVAGWLLGNPMCDEFINVPEWS*IVEKiN
+major_switches                      *T*NGKLCDLDGVKPLILR**SVAGWLL*NPMCDEFI*VPEWS*IVEKi*
+minor_switches                      K*HN*K**D*D****LI****SVAGWLLGNPM*DE*I**P**S*IV*Ki*
+unique_switches                     ******LC****VK*LIL**CS***W*LGNPM*DEFI*****SY*V*Ki*
+
+index_consensus                     PANDLCYPGNFNDYEELKHLLSRINHFEKIQIIPKSSWSDHEASSGVSSA
+index_switches                      PANDLCYPGNFNDYEELKHLLSRINHFEKIQIIPKSSWSDHEASSGVSSA
+major_switches                      P*NDLCYPGN*ND**EL*HLLSRINHF*KI**I**S*WSDHEASSGV*SA
+minor_switches                      *ANDL*YP****D*EEL*H*LSR*NHF*K***I*****S*HE**SGV***
+unique_switches                     *A*D**Y*GN****EELK**LSR**H***************E**SGVS**
+
+index_consensus                     CPYQGRSSFFRNVVWLIKKdnaYPTIKRSYNNTNQEDLLVLWGIHHPNDA
+index_switches                      CPYQGRSSFFRNV*WLIKK**aYPTIKRSYNNTNQEDLLVLWGIHHPNDA
+major_switches                      CPYQGR***FR***WLIKK**a*PTIKR**NNTNQEDLLVL*GIHH*NDA
+minor_switches                      C****R**FFRNVV*LI***n*YP******N*T*****LVLW*I*****A
+unique_switches                     *P*Q****FF*N*V*L*******P**K***N*TNQ**LL*L**IHHP***
+
+index_consensus                     AEQTRLYQNPTTYISVGTSTLNQRLVPKIATRSKVNGQSGRMEFFWTILK
+index_switches                      AEQTRLYQNPTTYISVGTSTLNQRLVPKIATRSKVNGQSGRMEFFWTILK
+major_switches                      AEQTRL**NPTTYISV**S*LNQRLVPK*ATRSK*NGQSGRME*FWTILK
+minor_switches                      **Q**L******YI****STLNQ*LVPK**T*SK***QSGRME*FW*I*K
+unique_switches                     **QT***Q******S**TSTL***L****ATR******S*******TILK
+
+index_consensus                     PNDAINFESNGNFIAPEYAYKIVKKGDSTIMKSELEYGNCNTKCQTPIGA
+index_switches                      PNDAINFESNGNFIAPEYAYKIVKKGDSTIMKSELEYGNCNTKCQTPIGA
+major_switches                      P*DAIN*ES*GNFIAPEY*Y*IVKKGDST*MKSEL*YGN*NTKCQTPIGA
+minor_switches                      P****N*E*N*N*IA*E**Y*I**KG*ST*M*SEL**G**N*K*QTP**A
+unique_switches                     **D*****SN***I**EY*YK**K****T****E***G******Q****A
+
+index_consensus                     INSSMPFHNIHPLTIGECPKYVKSNRLVLATGLRNSPQgERRRKKRGLFG
+index_switches                      INSSMPFHNIHPLTIGECPKYVKSNRLVLATG*RNSPQgERRRKKRGLFG
+major_switches                      I*SSMPFHNI*PLTIG**PKYVKSNR**L**G*RNSPQg*R*RK**GLFG
+minor_switches                      I**SM*F*N**P*TI***PKYVKSN***LA*G**N*P*********GL*G
+unique_switches                     INSS***HNI*PL*IGE**K*V*****V*AT**R********R*K*GLF*
+
+index_consensus                     AIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGVTNKVNS
+index_switches                      AIAGFIEGGWQGMVDGWYGYHHSNEQGSGYAADKESTQKAIDGVTNKVNS
+major_switches                      AI*G**EGGWQ*MVDGWYGY*HSNEQGSGY*ADKE*TQKAIDGVTNKVNS
+minor_switches                      AI*GFI*G**Q**VDGWYGY**S*EQGS*YA*DK*S***AI***T*K*NS
+unique_switches                     ******E*GWQ*MVD*WYGY*HS**Q*SGY**D****QKAI**V*N**NS
+
+index_consensus                     IIDKMNTQFEAVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMEN
+index_switches                      IIDKMNTQFEAVGREFNNLERRIENLNKKMEDGFLDVWTYNAELLVLMEN
+major_switches                      IIDKM*TQFEAVGR*FNNLER*IEN*N*KMEDGFLD*WTYNA*L*V*ME*
+minor_switches                      II***NT*FE**G**FN**ER*IE**NKK**DGFLD*WTYN**LLVLM*N
+unique_switches                     IID*****FEA*G**FN*LE*R*EN*N*KMED**LDVWT*N*E**VLM**
+
+index_consensus                     ERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVRN
+index_switches                      ERTLDFHDSNVKNLYDKVRLQLRDNAKELGNGCFEFYHKCDNECMESVRN
+major_switches                      *R**DFH*SNVKNL*DKVRLQLR*NAK*L**GCFEFYHKC*NECMESVR*
+minor_switches                      *RTLDF*DSNVKNL****RLQLR**AK**G*G*FE*Y*KC****M**VR*
+unique_switches                     ERTLD**DSNVKNLYD*VRL****NAKE*GN*CF*F**K*D***ME****
+
+index_consensus                     GTYDYPQYSEEARLKREEISGVKLESIGTYQILSIYSTVASSLALAIMVA
+index_switches                      GTYDYPQYSEEARLKREEISGVKLESIGTYQILSIYSTVASSLALAIMVA
+major_switches                      GTYD*P*YSEEARLK*EE*S*VKLESIGT**ILSI*STVA*SLA*AIMVA
+minor_switches                      G**D*P**SE**R***EEIS***L******QI*S*Y***ASS*A*AI***
+unique_switches                     GTYD*P*****AR*K**E*SG*K**S*****ILSIYSTVASS********
+
+index_consensus                     GLSLWMCSNGSLQCRICI
+index_switches                      GLSLWMCSNGSLQCRICI
+major_switches                      GLS**M**NGSLQCRICI
+minor_switches                      G*S***CS**SLQCRICI
+unique_switches                     G****M*SN*SLQCRICI
+
+
