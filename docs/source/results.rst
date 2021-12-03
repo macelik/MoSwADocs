@@ -81,7 +81,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
 
 .. raw:: html
 
-    <iframe src="_static/posa.html" height="800px" width="600px"></iframe>
+    <embed type="text/html" src="_static/posa.html" height="800" width="600">
 
  #. Edges: something
 
