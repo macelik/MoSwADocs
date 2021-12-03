@@ -54,7 +54,7 @@ MoSwA produces a network dot plot to illustrate the complex interaction of motif
 
 The network plot shows only the user defined motif sites (default is all). It should be noted that the positions with a low support value (user defined) are discarded from the network plot. The network can be divided into 5 components;
 
- #. Downgrading Motifs: The higher ranked motif switching to a lower rank such as Index becoming Major (denoted as I => M), Major becoming Minor (denoted as M => Mi) or any loss of the motif which occurs when a motif is present in the previous position but disappears in the subsequent position. Index motif loss is denoted as "I => -". Downgrading motifs are placed at the top of the plot as nodes and it follows a hiearchial order, from the most left to right
+ **1. Downgrading Motifs:** The higher ranked motif switching to a lower rank such as Index becoming Major (denoted as I => M), Major becoming Minor (denoted as M => Mi) or any loss of the motif which occurs when a motif is present in the previous position but disappears in the subsequent position. Index motif loss is denoted as "I => -". Downgrading motifs are placed at the top of the plot as nodes and it follows a hiearchial order, from the most left to right
  
     .. admonition:: Downgrading Motif Order
  
@@ -62,7 +62,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
       |  I => M  ||  I => Mi ||  I => U  ||  I => -  ||  M => Mi ||  M => U  ||  M => -  || Mi => U  || Mi => -  ||  U => -  |
       +----------++----------++----------++----------++----------++----------++----------++----------++----------++----------+
  
- #. Upgrading Motifs: The *vice versa* of the downgrading motifs, Major motif becoming Index in the subsequent position (denoted as M => I), Minor becoming Index (denoted as Mi => I) or any gain of the motif, contrary to motif loss. Index motif gain is denoted as "I => +". Upgrading motifs are placed at the bottom of the plot as nodes and just like Downgrading motifs, !!it follows the same hiearchial order!!. This allows users to easily spot the direct replacing switches.
+ **2. Upgrading Motifs:** The *vice versa* of the downgrading motifs, Major motif becoming Index in the subsequent position (denoted as M => I), Minor becoming Index (denoted as Mi => I) or any gain of the motif, contrary to motif loss. Index motif gain is denoted as "I => +". Upgrading motifs are placed at the bottom of the plot as nodes and just like Downgrading motifs, !!it follows the same hiearchial order!!. This allows users to easily spot the direct replacing switches.
  
     .. admonition:: Upgrading Motif Order
  
@@ -70,7 +70,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
       |  M => I  || Mi => I  ||  U => I  ||  I => +  || Mi => M  ||  U => M  ||  M => +  ||  U => Mi || Mi => +  ||  U => +  |
       +----------++----------++----------++----------++----------++----------++----------++----------++----------++----------+
  
- #. Positions: The positions involving in motif switch are laid at the center as nodes, and the color of these nodes are based on the number of edges. The more edges (switches) in the position, the lighter the color (dark blue to grey).  
+ **3. Positions:** The positions involving in motif switch are laid at the center as nodes, and the color of these nodes are based on the number of edges. The more edges (switches) in the position, the lighter the color (dark blue to grey).  
  
     The example below is to illustrate. The node that represents 336 is colored light because multiple switches are occuring while position 348 is colored dark blue because it has single switch. 
     
@@ -86,9 +86,10 @@ The network plot shows only the user defined motif sites (default is all). It sh
     
 htmlcap
 
-   4. Edges: sadas
+   **4. Edges: sadas**
 
-       a. Splits:
-       b. Mergers:
+    **i. Splits:**
+    
+    **ii. Mergers:**
 
-   5. Legend: 
+   **5. Legend:** 
