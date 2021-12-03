@@ -42,7 +42,9 @@ Users are able to view this alignment file in the short summary report, as well 
   
 Below is the showcase of the alignment view within the short summary page.  
   
-.. figure:: figs/alignmentview.png
+.. raw:: html
+
+    <object width="1035" height="374" type="text/plain" data="_static/Consensus.aln" border="0"></object>
  
 .. _network:
 
@@ -81,7 +83,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
 
 .. raw:: html
 
-    <embed type="text/html" src="_static/posa.html" height="800" width="600">
+    <embed type="text/html" src="_static/posa.html" height="600" width="600">
 
  #. Edges: something
 
