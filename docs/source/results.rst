@@ -42,9 +42,8 @@ Users are able to view this alignment file in the short summary report, as well 
   
 Below is the showcase of the alignment view within the short summary page.  
   
-.. include:: _static/Consensus.aln
-   :start-line: 21
-   :end-line: 26
+.. include:: _static/cons_short.aln
+   :literal:
  
 .. _network:
 
