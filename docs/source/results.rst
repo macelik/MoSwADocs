@@ -82,7 +82,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
 
 .. raw:: html
 
- <div id="divnetwork" style="margin-bottom:2em">
+ <div id="divnetwork">
  <embed type="text/html" src="_static/motif1.html" width="720" height="550"></embed>
  </div>
  
