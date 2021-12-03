@@ -1,0 +1,15 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+index_consensus                     CPYQGRSSFFRNVVWLIKKdnaYPTIKRSYNNTNQEDLLVLWGIHHPNDA
+index_switches                      CPYQGRSSFFRNV*WLIKK**aYPTIKRSYNNTNQEDLLVLWGIHHPNDA
+major_switches                      CPYQGR***FR***WLIKK**a*PTIKR**NNTNQEDLLVL*GIHH*NDA
+minor_switches                      C****R**FFRNVV*LI***n*YP******N*T*****LVLW*I*****A
+unique_switches                     *P*Q****FF*N*V*L*******P**K***N*TNQ**LL*L**IHHP***
+
+index_consensus                     AEQTRLYQNPTTYISVGTSTLNQRLVPKIATRSKVNGQSGRMEFFWTILK
+index_switches                      AEQTRLYQNPTTYISVGTSTLNQRLVPKIATRSKVNGQSGRMEFFWTILK
+major_switches                      AEQTRL**NPTTYISV**S*LNQRLVPK*ATRSK*NGQSGRME*FWTILK
+minor_switches                      **Q**L******YI****STLNQ*LVPK**T*SK***QSGRME*FW*I*K
+unique_switches                     **QT***Q******S**TSTL***L****ATR******S*******TILK
+
+
