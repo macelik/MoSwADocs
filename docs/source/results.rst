@@ -81,11 +81,9 @@ The network plot shows only the user defined motif sites (default is all). It sh
     Moreoever, when a user hovers over the positions, an information pops up about what kind of switches are happening at the indicated position. You can inspect the example below. How to interpret: HERE IS A LONG EXPLANATION OF 
 
 .. raw:: html
+    :file: _static/motif1.html
+    
 
- <div id="divnetwork">
- <embed type="text/html" src="_static/motif1.html" width="720" height="550"></embed>
- </div>
- 
  #. Edges: sadas
 
     a. Splits:
