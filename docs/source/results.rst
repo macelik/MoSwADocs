@@ -44,7 +44,7 @@ Below is the showcase of the alignment view within the short summary page.
   
 .. raw:: html
 
-    <object width="1035" height="374" type="text/plain" data="_static/Consensus.aln" border="0"></object>
+    <embed type="text/html" src="_static/Consensus.aln" height="600" width="600">
  
 .. _network:
 
