@@ -82,7 +82,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
 
 .. raw:: html
 
-    <embed type="text/html" src="_static/motif1.html" width="650" height="600"></embed>
+    <embed type="text/html" src="_static/motif1.html" width="100%" height="100%"></embed>
     
     
  #. Edges:
