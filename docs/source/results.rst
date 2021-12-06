@@ -29,7 +29,7 @@ An example of this part of the MoSwA report is given below. The sample file is a
 
 .. raw:: html
     
-    <embed type="text/html" src="_static/short.html" width="720" height="600"></embed>
+    <embed type="text/html" src="_static/short.html" width="720" height="420"></embed>
   
 .. _consensus:
 
@@ -108,9 +108,12 @@ The network plot shows only the user defined motif sites (default is all). It sh
     
 htmlcap
 
-   **4. Edges: sadas**
+   **4. Edges:** ....... set as edges. Grey edges indicate true switches, while others psuedo-switches. 
 
-    **i. Splits:**
+    **i. Splits:** is when a distinct variant k-mer separates into two or more distinct variants in the subsequent position.
+     
+     .. include:: _static/cons_short.aln
+        :literal:
     
     **ii. Mergers:**
 
