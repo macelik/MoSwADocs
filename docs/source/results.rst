@@ -54,9 +54,9 @@ Network Plot Topology
 
 MoSwA produces a network dot plot to illustrate the complex interaction of motif switches. You can inspect the network plot right on the MoSwA web as well as download it as html file format. MoSwA stand alone produces this as a seperate html file as well. 
 
-The network plot shows only the user defined motif sites (default is all). It should be noted that the positions with a low support value (user defined) are discarded from the network plot. The network can be divided into 5 components;
+The network plot shows only the user defined motif sites (default is all). It should be noted that the positions with a low support value (user defined) are discarded from the network plot. The network graph is dynamic, users can point at a node to see what it is actually representing. Users can download this plot as html file and take advantage of interactive plot or/and they can export the current view of the plot as png. The network can be divided into 5 components;
 
- **1. Downgrading Motifs:** The higher ranked motif switching to a lower rank such as Index becoming Major (denoted as I => M), Major becoming Minor (denoted as M => Mi) or any loss of the motif which occurs when a motif is present in the previous position but disappears in the subsequent position. Index motif loss is denoted as "I => -". Downgrading motifs are placed at the top of the plot as nodes and it follows a hiearchial order, from the most left to right
+ **1. Downgrading Motifs:** The higher ranked motif switching to a lower rank such as Index becoming Major (denoted as I => M), Major becoming Minor (denoted as M => Mi) or any loss of the motif which occurs when a motif is present in the previous position but disappears in the subsequent position. Index motif loss is denoted as "I => -". Downgrading motifs are placed at the top lane of the plot as nodes and it follows a hiearchial order, from the most left to right
  
     .. admonition:: Downgrading Motif Order
     
@@ -75,7 +75,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
  
 
  
- **2. Upgrading Motifs:** The *vice versa* of the downgrading motifs, Major motif becoming Index in the subsequent position (denoted as M => I), Minor becoming Index (denoted as Mi => I) or any gain of the motif, contrary to motif loss. Index motif gain is denoted as "I => +". Upgrading motifs are placed at the bottom of the plot as nodes and just like Downgrading motifs, !!it follows the same hiearchial order!!. This allows users to easily spot the direct replacing switches.
+ **2. Upgrading Motifs:** The *vice versa* of the downgrading motifs, Major motif becoming Index in the subsequent position (denoted as M => I), Minor becoming Index (denoted as Mi => I) or any gain of the motif, contrary to motif loss. Index motif gain is denoted as "I => +". Upgrading motifs are placed at the bottom lane of the plot as nodes and just like Downgrading motifs, !!it follows the same hiearchial order!!. This allows users to easily spot the direct replacing switches.
  
     .. admonition:: Upgrading Motif Order
     
@@ -122,6 +122,13 @@ htmlcap
     
      Two distinct minors are merging with the index motif, causing an increase in the frequency of the motif, opposite of a split. 
 
-   **5. Legend:** 
+   **5. Legend:** is interactive too, you can double click on a any of the legend to isolate the related trace or single click to hide it. 
 
-     
+    
+Network Plot Sample
+^^^^^^^^^^^^^^^^^^^
+.. raw:: html
+    
+    <embed type="text/html" src="_static/example_network.html" width="720" height="470"></embed>
+    
+    
