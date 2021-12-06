@@ -110,10 +110,9 @@ htmlcap
 
    **4. Edges:** ....... set as edges. Grey edges indicate true switches, while others psuedo-switches. 
 
-    **i. Splits:** is when a distinct variant k-mer separates into two or more distinct variants in the subsequent position.
+    **i. Splits:** is when a distinct variant k-mer separates into two or more distinct variants in the subsequent position while preserving its current motif rank.
      
-     .. include:: _static/Kitap1.pdf
-        :literal:
+     .. figure:: figs/split.png
     
     **ii. Mergers:**
 
