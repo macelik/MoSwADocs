@@ -29,7 +29,7 @@ An example of this part of the MoSwA report is given below. The sample file is a
 
 .. raw:: html
     
-    <embed type="text/html" src="_static/short.html" width="720" height="600"></embed>
+    <embed type="text/html" src="_static/short.html" width="720" height="420"></embed>
   
 .. _consensus:
 
