@@ -114,9 +114,13 @@ htmlcap
      
      .. figure:: figs/split.png
      
-      Index spits two distincs variants while preserving its motif rank (index), causing a switch in
+      Index spits two distincs variants while preserving its motif rank (index), and pushing a switch in major rank. 
     
-    **ii. Mergers:**
+    **ii. Mergers:** is when a two or more distinct k-mer variants of a given incidence at a position combined/merged to become one in the subsequent position. Example is given below.
+    
+    .. figure:: figs/merge.png
+    
+     Two distinct minors are merging with the index motif, causing an increase in the frequency of the motif, opposite of a split. 
 
    **5. Legend:** 
 
