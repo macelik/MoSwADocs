@@ -112,7 +112,7 @@ htmlcap
 
     **i. Splits:** is when a distinct variant k-mer separates into two or more distinct variants in the subsequent position.
      
-     .. include:: _static/cons_short.aln
+     .. include:: _static/Kitap1.pdf
         :literal:
     
     **ii. Mergers:**
