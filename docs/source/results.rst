@@ -127,8 +127,14 @@ htmlcap
     
 Network Plot Sample
 ^^^^^^^^^^^^^^^^^^^
+
+.. Hint:: Double click on the legend number 1 ( I => M indicating Index to Major) and then when you get the isolated trace, do a single click on the second legend ( M => I indicating Major to Index). Now, you will be inspecting only those that are inter-switching between each other. 
+
 .. raw:: html
     
     <embed type="text/html" src="_static/example_network.html" width="720" height="470"></embed>
     
-    
+Hotspot Bar Plot
+----------------
+
+
