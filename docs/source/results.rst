@@ -93,3 +93,18 @@ htmlcap
     **ii. Mergers:**
 
    **5. Legend:** 
+
+.. admonition:: Downgrading Motif Order
+.. list-table:: Title
+
+   * - I => M
+     - I => Mi
+     - I => U
+     - I => -
+     - M => Mi
+     - M => U
+     - M => -
+     - Mi => U
+     - Mi => -
+     - U => -
+     
