@@ -96,7 +96,7 @@ htmlcap
 
 .. admonition:: Downgrading Motif Order
 
- .. list-table:: Title
+ .. list-table:: 
 
     * - I => M
       - I => Mi
