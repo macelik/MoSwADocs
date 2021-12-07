@@ -32,21 +32,21 @@ MoSwA requires python>=3.6. To clone the repo and install the requirements of Mo
 
 MoSwA utilizes PyGraphviz library which is a Python interface to the Graphviz graph layout and visualization package. Thus, Graphviz needs to be installed before PyGraphviz.
 
-* Ubuntu/Debian:
+* **Ubuntu/Debian:**
 
 .. code-block:: bash
 
    sudo apt-get install graphviz graphviz-dev
    pip install pygraphviz
    
-* macOS:
+* **macOS:**
 
 .. code-block:: bash
 
    brew install graphviz
    pip install pygraphviz
    
-* Windows:
+* **Windows:**
 
 Download and install Graphviz:
 
