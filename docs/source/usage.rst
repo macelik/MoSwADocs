@@ -58,4 +58,28 @@ After that install Pygraphviz via typing the following in the PowerShell or Comm
 
    python -m pip install --global-option=build_ext --global-option="-IC:\Program Files\Graphviz\include" --global-option="-LC:\Program Files\Graphviz\lib" pygraphviz
 
+Standalone Usage
+----------------
 
+Uses the same parameters as web service, and produces the same output files in your local machine. 
+
+.. code-block:: bash
+
+   MoSwA.py -i AlignedFasta -m motif_sites -t int -k int -o OutFolderName
+   
+-i specifies input file
+
+-t specifies the threshold for low support positions
+
+-k specifies the k-mer length (default is 9).
+
+-o specifies the output folder name. (All the results will be saved in here)
+
+-m specifies the motif sites to be aligned. Single space delimited (default is all; index,major, minor and unique). 
+
+**Specifying only index and minor sites to be analyzed with k-mer size of 15.**
+
+.. code-block:: bash
+
+   MoSwA.py -i sample.fasta -m index minor -t 30 -k 15 -o SampleOut
+   
