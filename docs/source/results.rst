@@ -126,7 +126,7 @@ htmlcap
      
      .. figure:: figs/merge2.png
      
-     Minor_8 and Minor_10 are merging with what was previously a Index motif and causing an increase in the frequency from 129 to 142. However, Minor_2 and Minor_5 are merging with what was previously a Major motif and causing an greater increase in the frequency from 117 to 150. Altough these mergers are what we call pseudo-switches, it gives rise to true switches. The major at the previous position now has the highest frequency and becomes the Index and the Index at the previous position loses its "crown" and becomes a major.
+      Minor_8 and Minor_10 are merging with what was previously a Index motif and causing an increase in the frequency from 129 to 142. However, Minor_2 and Minor_5 are merging with what was previously a Major motif and causing an greater increase in the frequency from 117 to 150. Altough these mergers are what we call pseudo-switches, it gives rise to true switches. The major at the previous position now has the highest frequency and becomes the Index and the Index at the previous position loses its "crown" and becomes a major.
 
    **5. Legend:** is interactive too, you can double click on a any of the legend to isolate the related trace or single click to hide it. 
 
