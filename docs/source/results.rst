@@ -110,17 +110,23 @@ htmlcap
 
    **4. Edges:** ....... set as edges. Grey edges indicate true switches, while others psuedo-switches. 
 
-    **i. Splits:** is when a distinct variant k-mer separates into two or more distinct variants in the subsequent position while preserving its current motif rank. Example is given below.
+    **i. Splits:** is when a distinct variant k-mer separates into two or more distinct variants in the subsequent position while preserving its current motif rank. A split causes a drop in the frequency of the motif. Example is given below.
      
      .. figure:: figs/split.png
      
       Index spits two distincs variants while preserving its motif rank (index), and pushing a switch in major rank. 
     
-    **ii. Mergers:** is when a two or more distinct k-mer variants of a given incidence at a position combined/merged to become one in the subsequent position. Example is given below.
+    **ii. Mergers:** is when a two or more distinct k-mer variants of a given incidence at a position combined/merged to become one in the subsequent position. A merger causes an increase in the frequency of the motif. Example is given below.
     
     .. figure:: figs/merge.png
     
      Two distinct minors are merging with the index motif, causing an increase in the frequency of the motif, opposite of a split. 
+     
+     Below is a more complex mergers example.
+     
+     .. figure:: figs/merge2.png
+     
+     Minor_8 and Minor_10 are merging with what was previously a Index motif and causing an increase in the frequency from 129 to 142. However, Minor_2 and Minor_5 are merging with what was previously a Major motif and causing an greater increase in the frequency from 117 to 150. Altough these mergers are what we call pseudo-switches, it gives rise to true switches. The major at the previous position now has the highest frequency and becomes the Index and the Index at the previous position loses its "crown" and becomes a major.
 
    **5. Legend:** is interactive too, you can double click on a any of the legend to isolate the related trace or single click to hide it. 
 
