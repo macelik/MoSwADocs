@@ -143,4 +143,10 @@ Network Plot Sample
 Hotspot Bar Plot
 ----------------
 
+There are several studies suggesting that certain regions of the gene/genome have a higher proclivity for sequence change. Strong mutation hotspots were discovered in the very first significant collection of mutations within a single gene which is not surprising(`1 <https://pubmed.ncbi.nlm.nih.gov/16590151/>`_). Indeed, there are discovries identified multiple simultaneous mutations occuring in tiny regions while the rest of the gene/genome remains relatively mutation free(`2 <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4710516/>`_). Since switches refer to mutations, we followed the same ..... We cluster the positions that show motif switches and later identify the hotspot positions based on the criteria below:
 
+ #. CMSP;
+ 
+ #. CS;
+ 
+ #. CD;
