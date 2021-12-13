@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
-=======================================
+Welcome to MoSwA Documentation!
+===============================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repo for Motif SWitch Analyser(MoSwA) documentation with some basic Sphinx docs.
 
-Read the tutorial here:
+Link to the MoSwA documentation:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://moswadocs.readthedocs.io/
