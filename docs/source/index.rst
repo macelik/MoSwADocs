@@ -30,6 +30,7 @@ Contents
    results
    algo
    contributing
+   coc
    license
 
 Authors
