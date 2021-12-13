@@ -29,3 +29,8 @@ Contents
    usage
    results
    algo
+
+Authors
+-------
+
+.. include:: AUTHORS.rst
