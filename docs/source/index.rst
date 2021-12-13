@@ -29,6 +29,7 @@ Contents
    usage
    results
    algo
+   contributing
    license
 
 Authors
