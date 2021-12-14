@@ -26,6 +26,7 @@ Contents
    :glob:
    :numbered:
    
+   background
    usage
    results
    algo
