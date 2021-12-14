@@ -40,7 +40,7 @@ Users are able to view this alignment file in the short summary report, as well 
 
   #.  Provide users an alignment view of all the switches observed in a given dataset, referenced against a consensus sequence built from the index sequences of the k-mer positions
   
-  #.  When index and major bla bla bla please visit how it works page for more detail
+  #.  When index and major bla bla bla please visit how it works page for more detail DO NOT FORGET TO ADD A DESCRIPTION MF
   
 Below is the showcase of the alignment view within the short summary page.  
   
