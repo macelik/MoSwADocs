@@ -29,7 +29,6 @@ Contents
    background
    usage
    results
-   algo
    contributing
    coc
    license
