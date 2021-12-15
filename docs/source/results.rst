@@ -173,21 +173,26 @@ All the detailed results are stored in a json file. This file can be downloaded 
 
 .. jsonschema::
     :lift_definitions:
-    :auto_reference:
-    :auto_target:
-    
 
     {
+        "title": "Example with definitions",
         "definitions": {
-            "person": {
+            "football_player": {
                 "type": "object",
+                "required": ["first_name", "last_name", "age"],
                 "properties": {
-                    "name": { "type": "string" },
-                    "children": {
-                        "type": "array",
-                        "items": { "$ref": "#/definitions/person" },
-                        "default": []
-                    }
+                    "first_name": {"type": "string"},
+                    "last_name": {"type": "string"},
+                    "age": {"type": "integer"}
+                }
+            },
+            "football_team": {
+                "type": "object",
+                "required": ["team", "league"],
+                "properties": {
+                    "team": {"type": "string"},
+                    "league": {"type": "string"},
+                    "year_founded": {"type": "integer"}
                 }
             }
         }
