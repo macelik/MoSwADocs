@@ -176,9 +176,7 @@ All the detailed results are stored in a json file. This file can be downloaded 
     
     {
         "title": "Example with",
-        "definitions":
-        
-        {
+        "definitions": {
             "MoSwa_Output": {
                 "Report": {
                     "kmer_length": 9,
