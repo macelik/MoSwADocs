@@ -175,30 +175,27 @@ All the detailed results are stored in a json file. This file can be downloaded 
     :lift_definitions:
 
     {
-        "title": "Example with definitions",
-        "definitions": {
-            "MoSwa_Output":
-    {
-        "Report":
+        "MoSwa_Output":
         {
-            "kmer_length": 9,
-            "tresh_hold": 100,
-            "alignment_length": 568,
-            "highest_support": 307,
-            "average_support": 296,
-            "Positions_no_support": 0,
-            "Positions_low_support": 0,
-            "Total_switches":
+            "Report":
             {
-                "Index": 2,
-                "Major": 81,
-                "Minor": 111,
-                "Unique": 156
-            },
-            "Unique_switches": 237,
-            "Results": "All the motif info will be here"
-            
-        }
-    }
+                "kmer_length": 9,
+                "tresh_hold": 100,
+                "alignment_length": 568,
+                "highest_support": 307,
+                "average_support": 296,
+                "Positions_no_support": 0,
+                "Positions_low_support": 0,
+                "Total_switches":
+                {
+                    "Index": 2,
+                    "Major": 81,
+                    "Minor": 111,
+                    "Unique": 156
+                },
+                "Unique_switches": 237,
+                "Results": "All the motif info will be here"
+
+            }
         }
     }
