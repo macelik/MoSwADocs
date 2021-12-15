@@ -177,9 +177,8 @@ All the detailed results are stored in a json file. This file can be downloaded 
        :selected:
        
       .. code-block:: python
-          :emphasize-lines: 3
+          :emphasize-lines: 3,18
           
-          print("this")
           {
               "MoSwa_Output": {
                   "Report": { #First part of the report is statistical information about the input
