@@ -174,12 +174,13 @@ All the detailed results are stored in a json file. This file can be downloaded 
 .. tabs::
 
    .. tab:: First part of the Json File
-      
+       :selected:
+       
       .. code:: python
-      
+          :emphasize-lines: 3
          {
              "MoSwa_Output": {
-                 "Report": {
+                 "Report": { #First part of the report is statistical information about the input
                      "kmer_length": 9,
                      "tresh_hold": 100,
                      "alignment_length": 568,
@@ -194,15 +195,15 @@ All the detailed results are stored in a json file. This file can be downloaded 
                          "Unique": 156
                      },
                      "Unique_switches": 237,
-                     "Results": "All the motif info will be here"
+                     "Results": "Please see the "Results Tab"
 
                  }
              }
          }
 
-   .. tab:: MkDocs
+   .. tab:: Results
 
-      .. code:: yaml
+      .. code:: python
 
          # .readthedocs.yaml
          # Read the Docs configuration file
