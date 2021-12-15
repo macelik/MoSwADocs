@@ -178,12 +178,6 @@ All the detailed results are stored in a json file. This file can be downloaded 
     
 
     {
-        "$schema": "http://json-schema.org/draft-07/schema#",
-        "title": "Example of Target & Reference",
-        "type": "object",
-        "properties": {
-            "person": { "$ref": "#/definitions/person" }
-        },
         "definitions": {
             "person": {
                 "type": "object",
