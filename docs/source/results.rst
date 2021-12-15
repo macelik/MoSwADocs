@@ -174,28 +174,13 @@ All the detailed results are stored in a json file. This file can be downloaded 
 .. jsonschema::
 
     {
-        "MoSwa_Output":
-        {
-            "Report":
-            {
-                "kmer_length": 9,
-                "tresh_hold": 100,
-                "alignment_length": 568,
-                "highest_support": 307,
-                "average_support": 296,
-                "Positions_no_support": 0,
-                "Positions_low_support": 0,
-                "Total_switches":
-                {
-                    "Index": 2,
-                    "Major": 81,
-                    "Minor": 111,
-                    "Unique": 156
-                },
-                "Unique_switches": 237,
-                "Results": "All the motif info will be here"
-
-            }
-        }
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "title": "An example",
+        "id": "http://example.com/schemas/example.json",
+        "description": "This is just a tiny example of a schema rendered by `sphinx-jsonschema <http://github.com/lnoor/sphinx-jsonschema>`_.\n\nYes that's right you can use *reStructuredText* in a description.",
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 100,
+        "pattern": "^[A-Z]+$"
     }
 
