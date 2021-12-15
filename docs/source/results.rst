@@ -177,23 +177,28 @@ All the detailed results are stored in a json file. This file can be downloaded 
     {
         "title": "Example with definitions",
         "definitions": {
-            "football_player": {
-                "type": "object",
-                "required": ["first_name", "last_name", "age"],
-                "properties": {
-                    "first_name": {"type": "string"},
-                    "last_name": {"type": "string"},
-                    "age": {"type": "integer"}
-                }
+            "MoSwa_Output":
+    {
+        "Report":
+        {
+            "kmer_length": 9,
+            "tresh_hold": 100,
+            "alignment_length": 568,
+            "highest_support": 307,
+            "average_support": 296,
+            "Positions_no_support": 0,
+            "Positions_low_support": 0,
+            "Total_switches":
+            {
+                "Index": 2,
+                "Major": 81,
+                "Minor": 111,
+                "Unique": 156
             },
-            "football_team": {
-                "type": "object",
-                "required": ["team", "league"],
-                "properties": {
-                    "team": {"type": "string"},
-                    "league": {"type": "string"},
-                    "year_founded": {"type": "integer"}
-                }
-            }
+            "Unique_switches": 237,
+            "Results": "All the motif info will be here"
+            
+        }
+    }
         }
     }
