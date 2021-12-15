@@ -198,3 +198,14 @@ All the detailed results are stored in a json file. This file can be downloaded 
                  }
              }
          }
+
+   .. tab:: MkDocs
+
+      .. code:: yaml
+
+         # .readthedocs.yaml
+         # Read the Docs configuration file
+         # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+         # Required
+         version: 2
