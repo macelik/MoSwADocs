@@ -6,7 +6,7 @@ python:
     - method: pip
       path: .
     - requirements: requirements.txt
-      path: 
+      path: .
 # Set the version of Python and other tools you might need
 build:
   os: ubuntu-20.04
