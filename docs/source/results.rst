@@ -172,3 +172,4 @@ Results.JSON
 All the detailed results are stored in a json file. This file can be downloaded from the webservice and produced by the stand alone version in the output directory as "Results.json".
 
 .. jsonschema:: schema/reportheader.json
+
