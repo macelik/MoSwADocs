@@ -176,8 +176,8 @@ All the detailed results are stored in a json file. This file can be downloaded 
    .. tab:: First part of the Json File
        :selected:
        
-      .. code:: python
-         :emphasize-lines: 3
+      .. code-block:: python
+          :emphasize-lines: 3
           
           print("this")
           {
@@ -205,7 +205,7 @@ All the detailed results are stored in a json file. This file can be downloaded 
 
    .. tab:: Results
 
-      .. code:: python
+      .. code-block:: python
 
          # .readthedocs.yaml
          # Read the Docs configuration file
