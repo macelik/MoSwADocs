@@ -171,24 +171,4 @@ Results.JSON
 
 All the detailed results are stored in a json file. This file can be downloaded from the webservice and produced by the stand alone version in the output directory as "Results.json".
 
-.. jsonschema::
-    :lift_definitions:
-    
-    {
-        "MoSwa_Output":
-        {
-            "Report":
-            {
-                "kmer_length": 9,
-                "tresh_hold": 100,
-                "alignment_length": 568,
-                "highest_support": 307,
-                "average_support": 296,
-                "Positions_no_support": 0,
-                "Positions_low_support": 0,
-                "Unique_switches": 237,
-                "Results": "All the motif info will be here"
-
-            }
-        }
-    }
+.. jsonschema:: schema/reportheader.json#/Report
