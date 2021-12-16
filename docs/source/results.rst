@@ -206,7 +206,7 @@ All the detailed results are stored in a json file. This file can be downloaded 
    .. tab:: Results
 
       .. code-block:: python
-          :emphasize-lines: 3,18,19
+          :emphasize-lines: 3,10,58
 
           {"Results":{
                               "Index_Motifs":{
