@@ -163,21 +163,28 @@ Pairwise Alignment Score
 Index switch positions are noteworthy due to instability of the index at such positions are possibly to be avoided as vaccine targets, therefore, we provide a pairwise alignment score based on PAM30 for index switches, to determine the physico-checmical spectrum of similarity/variability between the index sequence and the replacing variant motif sequence. These scores are provided along with number of statistical analyses such as the total number of protein sequences analysed at the aligned k-mer position, the percentage of index, major, minor and unique motifs at the given position. This comma-seperated file format allows users to open with any text editor or excel. You can download the file from web-server, stand-alone version produces the same file in the output folder. 
 
 .. list-table:: Title
-   :widths: 25 25 50
+   :widths: 10 20 20 7 7 7 7 7 7
    :header-rows: 1
 
-   * - Heading row 1, column 1
-     - Heading row 1, column 2
-     - Heading row 1, column 3
-   * - Row 1, column 1
-     -
-     - Row 1, column 3
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-   * - Row 3, column 1
-     - Row 3, column 2
-     - Row 3, column 3
+   * - Position
+     - Current Index
+     - Preceding Index
+     - Score
+     - Support
+     - Index %
+     - Major %
+     - Minor %
+     - Unique %
+   * - 94
+     - .....I... (Major)
+     - .....A... (Major)
+     - 57
+     - 2327
+     - 35
+     - 29
+     - 35
+     - 1
+
  
 The identical amino acids between the replacing index and the previous index are presented as dots. The "Current Index" column shows the present index motif at the given position, the previous motif rank of the sequence is indicated in paranthesis. "Preceding Index" column shows the index sequence from the previous position and the current motif of the sequence is given within paranthesis.
 
