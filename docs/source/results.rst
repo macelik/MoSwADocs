@@ -246,43 +246,23 @@ All the detailed results are stored in a json file. This file can be downloaded 
                                                "ToUnique":{"Index motifs switching to":"Unique"},
                                                "Lost":{"Index motifs":"disappearing"},
                                                "Gain":{"A new motif is appearing as":"Index"}},
-                              "Index_Split":{"ToMajor":{},
-                                            "ToMinor":{},
-                                            "ToUnique":{}}
+                              "Index_Split":{"ToMajor":{"Index motifs spitting a":"Major motif"},
+                                            "ToMinor":{"Index motifs spitting a":"Minor motif"},
+                                            "ToUnique":{"Index motifs spitting a":"Unique motif"}}
                               },
                               "Major_Motifs":{
                               "Major_Raw":{"Nested dictionary to store all the motifs involving": "Major"},
-                              "Major_switches":{"ToIndex":{},
-                                               "ToMinor":{},
-                                               "ToUnique":{},
-                                               "Lost":{},
-                                               "Gain":{}},
-                              "Major_Split":{"ToMinor":{},
-                                            "ToUnique":{}},
-                              "Major_Merger":{"ToIndex":{}}
+                              "Major_switches":{"ToIndex":{"Major motifs switching to":"Index"},
+                                               "ToMinor":{"Major motifs switching to":"Minor"},
+                                               "ToUnique":{"Major motifs switching to":"Unique"},
+                                               "Lost":{"Major motif":"disappearing"},
+                                               "Gain":{"A new motif is appearing as":"Major"}},
+                              "Major_Split":{"ToMinor":{"Major motifs spitting a":"Minor motif"},
+                                            "ToUnique":{"Major motifs spitting a":"Unique motif"}},
+                              "Major_Merger":{"ToIndex":{"Major motifs merging with":"Index motif"}}
                               },
-                              "Minor_Motifs":{
-                              "Minor_Raw":{},
-                              "Minor_switches":{"ToIndex":{},
-                                               "ToMajor":{},
-                                               "ToUnique":{},
-                                               "Lost":{},
-                                               "Gain":{}},
-                              "Minor_Split":{"ToUnique":{}},
-                              "Minor_Merger":{"ToIndex":{},
-                                             "ToMajor":{}}
-                              },
-                              "Unique_Motifs":{
-                              "Unique_Raw":{},
-                              "Unique_switches":{"ToIndex":{},
-                                               "ToMajor":{},
-                                               "ToMinor":{},
-                                               "Lost":{},
-                                               "Gain":{}},
-                              "Unique_Merger":{"ToIndex":{},
-                                             "ToMajor":{},
-                                              "ToMinor":{}}
-                              }
+                              "Minor_Motifs":{"Same structure as":"Above"},
+                              "Unique_Motifs":{"Same structure as":"Above"}
 
                           },
                           "PairWise_Alignments":{"Please see next tab for a sample":"Pairwise Scores"}
