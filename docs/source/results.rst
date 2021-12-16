@@ -96,7 +96,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
     
 .. figure:: figs/networkpos.png
 
- FigureCap
+ The positions where motif switches happen are laid at the mid-line of the network plot as nodes.
  
     Moreoever, when a user hovers over the positions, an information pops up about what kind of switches are happening at the indicated position. You can inspect the example below. How to interpret: HERE IS A LONG EXPLANATION OF 
 
