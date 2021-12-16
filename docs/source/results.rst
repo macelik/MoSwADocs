@@ -206,7 +206,7 @@ All the detailed results are stored in a json file. This file can be downloaded 
    .. tab:: Results
 
       .. code-block:: python
-          :emphasize-lines: 3,10,58
+          :emphasize-lines: 3,10,48
 
           {"Results":{
                               "Index_Motifs":{
@@ -250,17 +250,7 @@ All the detailed results are stored in a json file. This file can be downloaded 
                                             "ToMinor":{"Index motifs spitting a":"Minor motif"},
                                             "ToUnique":{"Index motifs spitting a":"Unique motif"}}
                               },
-                              "Major_Motifs":{
-                              "Major_Raw":{"Nested dictionary to store all the motifs involving": "Major"},
-                              "Major_switches":{"ToIndex":{"Major motifs switching to":"Index"},
-                                               "ToMinor":{"Major motifs switching to":"Minor"},
-                                               "ToUnique":{"Major motifs switching to":"Unique"},
-                                               "Lost":{"Major motif":"disappearing"},
-                                               "Gain":{"A new motif is appearing as":"Major"}},
-                              "Major_Split":{"ToMinor":{"Major motifs spitting a":"Minor motif"},
-                                            "ToUnique":{"Major motifs spitting a":"Unique motif"}},
-                              "Major_Merger":{"ToIndex":{"Major motifs merging with":"Index motif"}}
-                              },
+                              "Major_Motifs":{"Same structure as":"Above"},
                               "Minor_Motifs":{"Same structure as":"Above"},
                               "Unique_Motifs":{"Same structure as":"Above"}
 
