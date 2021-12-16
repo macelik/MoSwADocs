@@ -177,7 +177,7 @@ All the detailed results are stored in a json file. This file can be downloaded 
        :selected:
        
       .. code-block:: python
-          :emphasize-lines: 3,18
+          :emphasize-lines: 3,18,19
           
           {
               "MoSwa_Output": {
@@ -196,7 +196,8 @@ All the detailed results are stored in a json file. This file can be downloaded 
                           "Unique": 156
                       },
                       "Unique_switches": 237,
-                      "Results": "Please see the "Results Tab"
+                      "Results": "Please see the Results Tab"
+                      "PairWise_Alignments": "Please see the Scores Tab"
 
                   }
               }
@@ -205,10 +206,84 @@ All the detailed results are stored in a json file. This file can be downloaded 
    .. tab:: Results
 
       .. code-block:: python
+          :emphasize-lines: 3,18,19
 
-         # .readthedocs.yaml
-         # Read the Docs configuration file
-         # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+          {"Results":{
+                              "Index_Motifs":{
+                              "Index_Raw":{"Below is a sample for raw":"Index Motifs",
+                                  "1":[
+                          {
+                              "position": 1,
+                              "seq": "M(EKIVLLLA)",
+                              "frequency": 128,
+                              "tag": "Index",
+                              "hits":#hits refers to matching the given motif pattern(in here its index) in the motifs of the subsequent k-mer position
+                              [
+                                  {
+                                      "position": 2,
+                                      "seq": "(EKIVLLLA)I",
+                                      "frequency": "118",
+                                      "tag": "Index"
+                                  },
+                                  {
+                                      "position": 2,
+                                      "seq": "(EKIVLLLA)T",
+                                      "frequency": "10",
+                                      "tag": "Minor_1"
+                                  }
+          ,                        {
+                                      "position": 2,
+                                      "seq": "(EKIVLLLA)V",
+                                      "frequency": "1",
+                                      "tag": "Unique_11"
+                                  }
+                              ]
+                          }]
+                              },
+                              "Index_switches":{"Nested dictionary to store all the switches involving": "Index",
+                                              "ToMajor":{"Index motifs switching to":"Major"},
+                                               "ToMinor":{"Index motifs switching to":"Minor"},
+                                               "ToUnique":{"Index motifs switching to":"Unique"},
+                                               "Lost":{"Index motifs":"disappearing"},
+                                               "Gain":{"A new motif is appearing as":"Index"}},
+                              "Index_Split":{"ToMajor":{},
+                                            "ToMinor":{},
+                                            "ToUnique":{}}
+                              },
+                              "Major_Motifs":{
+                              "Major_Raw":{"Nested dictionary to store all the motifs involving": "Major"},
+                              "Major_switches":{"ToIndex":{},
+                                               "ToMinor":{},
+                                               "ToUnique":{},
+                                               "Lost":{},
+                                               "Gain":{}},
+                              "Major_Split":{"ToMinor":{},
+                                            "ToUnique":{}},
+                              "Major_Merger":{"ToIndex":{}}
+                              },
+                              "Minor_Motifs":{
+                              "Minor_Raw":{},
+                              "Minor_switches":{"ToIndex":{},
+                                               "ToMajor":{},
+                                               "ToUnique":{},
+                                               "Lost":{},
+                                               "Gain":{}},
+                              "Minor_Split":{"ToUnique":{}},
+                              "Minor_Merger":{"ToIndex":{},
+                                             "ToMajor":{}}
+                              },
+                              "Unique_Motifs":{
+                              "Unique_Raw":{},
+                              "Unique_switches":{"ToIndex":{},
+                                               "ToMajor":{},
+                                               "ToMinor":{},
+                                               "Lost":{},
+                                               "Gain":{}},
+                              "Unique_Merger":{"ToIndex":{},
+                                             "ToMajor":{},
+                                              "ToMinor":{}}
+                              }
 
-         # Required
-         version: 2
+                          },
+                          "PairWise_Alignments":{"Please see next tab for a sample":"Pairwise Scores"}
+                      }
