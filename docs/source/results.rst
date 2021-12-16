@@ -92,9 +92,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
           - Mi => +
           - U => +
  
- **3. Positions:** The positions involving in motif switch are laid at the center as nodes, and the color of these nodes are based on the number of edges. The more edges (switches) in the position, the lighter the color (dark blue to grey).  
- 
-    The example below is to illustrate. The node that represents 336 is colored light because multiple switches are occuring while position 348 is colored dark blue because it has single switch. 
+ **3. Positions:** The positions involving in motif switch are laid at the center as nodes, and the color of these nodes are based on the number of edges. The more edges (switches) in the position, the lighter the color (dark blue to grey). The example below is to illustrate. The node that represents 336 is colored light because multiple switches are occuring while position 348 is colored dark blue because it has single switch. 
     
 .. figure:: figs/networkpos.png
 
