@@ -33,7 +33,7 @@ An example of this part of the MoSwA report is given below. The sample file is a
   
 .. _consensus:
 
-Alignment File
+Alignment View
 --------------
 
 Users are able to view this alignment file in the short summary report, as well as download it in .aln format. This file also produced by the stand alone version. We produce this for two reasons;
@@ -157,7 +157,7 @@ There are several studies suggesting that certain regions of the gene/genome hav
  
   The starting and ending positions that make up the cluster shown in square brackets as [start::end]. Red rectangle indicates the hot spot.
   
-Pairwise Alignment Score
+Pairwise Scores
 ------------------------
 
 Index switch positions are noteworthy due to instability of the index at such positions are possibly to be avoided as vaccine targets, therefore, we provide a pairwise alignment score based on PAM30 for index switches, to determine the physico-checmical spectrum of similarity/variability between the index sequence and the replacing variant motif sequence. These scores are provided along with number of statistical analyses such as the total number of protein sequences analysed at the aligned k-mer position, the percentage of index, major, minor and unique motifs at the given position. This comma-seperated file format allows users to open with any text editor or excel. You can download the file from web-server, stand-alone version produces the same file in the output folder. 
