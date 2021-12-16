@@ -209,7 +209,7 @@ The identical amino acids between the replacing index and the previous index are
 Raw Results.JSON
 ----------------
 
-All the detailed results are stored in a json file. This file can be downloaded from the webservice and produced by the stand alone version in the output directory as "Results.json". The structure is explained below, you can download sample .json file from here.
+All the detailed results are stored in a json file. This file can be downloaded from the webservice and produced by the stand alone version in the output directory as "Results.json". The structure is explained below, you can download sample .json file from `here <https://github.com/macelik/MoSwADocs/blob/main/docs/source/samplefile/Results.json>`_..
 
 .. tabs::
 
