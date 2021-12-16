@@ -1,0 +1,6 @@
+Position,Current Index,Motif,Score,Support,Index %,Major %,Minor %,Unique %
+94,.....I... (Major),.....A... (Major),57.0,2327,35,29,35,1
+164,......DNA (Minor),......NST (Major),50.0,2350,21,20,57,1
+170,NST...... (Major),DNA...... (Major),49.0,2350,18,14,66,2
+171,NA....... (Major),ST....... (Major),53.0,2352,21,18,60,2
+333,......G.. (Major),......R.. (Major),52.0,2169,34,26,38,2
