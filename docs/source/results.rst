@@ -206,10 +206,10 @@ Index switch positions are noteworthy due to instability of the index at such po
  
 The identical amino acids between the replacing index and the previous index are presented as dots. The "Current Index" column shows the present index motif at the given position, the previous motif rank of the sequence is indicated in paranthesis. "Preceding Index" column shows the index sequence from the previous position and the current motif of the sequence is given within paranthesis.
 
-Results.JSON
-------------
+Raw Results.JSON
+----------------
 
-All the detailed results are stored in a json file. This file can be downloaded from the webservice and produced by the stand alone version in the output directory as "Results.json".
+All the detailed results are stored in a json file. This file can be downloaded from the webservice and produced by the stand alone version in the output directory as "Results.json". The structure is explained below, you can download sample .json file from here.
 
 .. tabs::
 
