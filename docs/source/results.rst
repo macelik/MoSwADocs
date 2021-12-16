@@ -177,8 +177,9 @@ All the detailed results are stored in a json file. This file can be downloaded 
        :selected:
        
       .. code-block:: python
-          :emphasize-lines: 3,18,19
+          :emphasize-lines: 1,3,18,19
           
+          #This section consists the top part of the MoSwA report
           {
               "MoSwa_Output": {
                   "Report": { #First part of the report is statistical information about the input
@@ -257,3 +258,40 @@ All the detailed results are stored in a json file. This file can be downloaded 
                           },
                           "PairWise_Alignments":{"Please see next tab for a sample":"Pairwise Scores"}
                       }
+
+   .. tab:: Pairwise Scores
+
+      .. code-block:: python
+          :emphasize-lines: 1
+
+          #This part is output as CSV file
+          {"PairWise_Alignments":
+                      {
+                          "94":
+                          {
+                              "Index_replaced_with": "Major",
+                              "Index_switched_to": "Major",
+                              "Current_Index": ".....I..A",
+                              "Current_Major": ".....A..V",
+                              "Score_PAM30": 49.0,
+                              "Support": 301,
+                              "Index_%": 30,
+                              "Major_%": 20,
+                              "Minor_%": 48,
+                              "Unique_%": 2
+                          },
+                          "333":
+                          {
+                              "Index_replaced_with": "Major",
+                              "Index_switched_to": "Major",
+                              "Current_Index": "......G..",
+                              "Current_Major": "......R..",
+                              "Score_PAM30": 52.0,
+                              "Support": 295,
+                              "Index_%": 29,
+                              "Major_%": 20,
+                              "Minor_%": 49,
+                              "Unique_%": 2
+                          }
+                      }
+                  }
