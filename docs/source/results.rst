@@ -36,7 +36,8 @@ An example of this part of the MoSwA report is given below. The sample file is a
 Alignment View
 --------------
 
-Users are able to view this alignment file in the short summary report, as well as download it in .aln format. This file also produced by the stand alone version. We produce this for two reasons;
+Users are able to view this alignment file in the short summary report, as well as download it in .aln format. This file also produced by the stand alone version. In this alignment view asterix(*) indicates motif switch, and colon(:) indicates switches at positions that have low support.
+We produce this for two reasons;
 
   #.  Provide users an alignment view of all the switches observed in a given dataset, referenced against a consensus sequence built from the index sequences of the k-mer positions
   
