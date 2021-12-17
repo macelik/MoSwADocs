@@ -20,7 +20,8 @@ Below is the illustration for the sequence motifs:
  The “Index” nonamer is the most prevalent sequence, present in 8 of the 20 isolates. The “Major” variant is the most common variant of the index 
  (5/20). “Minor” variants are multiple different repeated sequences, each with incidences less than that or occasionally equal of the major variant. 
  “Unique” variants are those represented by a single aligned sequence. “Nonatypes” (boxed) are the distinct variant sequences at a given nonamer 
- position; in this example one of major, two of minor, and three of unique.
+ position; in this example one of major, two of minor, and three of unique. From "Dissecting the Dynamics of HIV-1 Protein Sequence Diversity" by Hu Y, et al., 2013, PLoS ONE,
+ 8(4), Materials and Methods section, Figure 1 (https://doi.org/10.1371/journal.pone.0059994.g001). CC BY.
 
 Index Switching
 ---------------
@@ -39,7 +40,7 @@ such as dominance switch between the major variant and the prevailing index. The
  index is maintained for the next few nonamer positions. At position 314 to 322, index switching is observed, where the sequence with aa D 
  is now the index (41%) and the one with E is the major variant (35%). This relationship continued till position 316–324, with reversal of 
  sequence ranks to the original state at position 317–325, where the sequence with aa E is the index. At an index switching position, 
- the index is alternative to that expected, relative to the preceding position.
+ the index is alternative to that expected, relative to the preceding position. From "Dissecting the Dynamics of HIV-1 Protein Sequence Diversity" by Hu Y, et al., 2013, PLoS ONE, 8(4), Materials and Methods section, Figure 8 (https://doi.org/10.1371/journal.pone.0059994.g008). CC BY.
  
  
 Motif Switches
@@ -73,4 +74,4 @@ observation as motif switching. We also witnessed that this was more complex tha
  with the major variant (nonamer containing aa 172A), and thus, resulting in an increase in its incidence at the current focal position 171–179 
  and becoming the predominant index. At the current focal position, it was also observed that variants can be gained from a motif classified as 
  “None” (due to indel) at the preceding position. Similarly variants can become loss, classified as “None” if the position shift introduced an 
- indel.
+ indel. From "Dynamics of Influenza A (H5N1) virus protein sequence diversity" by Abd Raman, H. S., et al., 2020, PeerJ, 7, Results section, Figure 6, (https://doi.org/10.7717/peerj.7954/fig-6). CC BY.
