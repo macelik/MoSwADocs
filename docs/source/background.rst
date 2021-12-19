@@ -1,6 +1,10 @@
 Background
 ==========
 
+    .. admonition:: Motif Switch Definition
+    
+     Motif switching, another relevant finding, revealed that there were a significant number of nonamer positions in the proteome where fitness change of one or more amino acids, such as through mutations, changed the incidence of a given nonamer sequence across its overlapping positions, resulting in a sequence rank change, and thus, a motif change (Abd Raman, H., et al., 2020)
+
 The rapid mutation of viruses and the limited characterization of the composition and incidence of the variant population are 
 major obstacles to the development of an effective vaccines. A continuing goal towards this is a greater understanding of 
 proteome sequence diversity of viruses in the context of the immune system (antigenic diversity), the dynamics of mutation, 
