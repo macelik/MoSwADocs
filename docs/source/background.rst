@@ -35,13 +35,9 @@ changes the incidence of a given k-mer sequence across its overlapping positions
 such as dominance switch between the major variant and the prevailing index. The figure below illustrates this phenomenon.
 
 .. figure:: figs/hadia-index.png
-    
-    :class: float-left
  
  **Sequence diversity motifs:** The classification of sequences at a given aligned nonamer position as characteristic diversity motifs is shown above for a model nonamer position of 20 sequences. The sequences are ranked according to their incidences. The sequence with the highest incidence (8/20) is classified as the “Index” nonamer, and all others are considered as “Total variants”. The most prevalent sequence among the total variants is classified as the “Major” variant, present in 5 of the 20 isolates. “Minor” variants comprise of sequences that are of lower incidence than the major variant, but are observed more than once; in this case, two distinct sequences, each repeated once, comprised the “Minor” variants (4/20). The three distinct sequences that are observed only once form the “Unique” variants group (3/20). The incidence of “Nonatypes”, which refers to all distinct variant nonamers (6/20), includes one major variant, two minor variants, and three unique variants for this model position.. From "Dissecting the Dynamics of HIV-1 Protein Sequence Diversity" by Hu Y, et al., 2013, PLoS ONE, 8(4), Supplemental Information section, Figure S1 (https://doi.org/10.1371/journal.pone.0059994.g008). CC BY.
- 
-.. rst-class::  clear-both
- 
+  
 Motif Switches
 --------------
 
