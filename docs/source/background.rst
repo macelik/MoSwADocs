@@ -50,7 +50,7 @@ such as dominance switch between the major variant and the prevailing index. The
 Motif Switches
 --------------
 
-We expected this, switches, to be also observed involving the other motifs, which we demonstrated in our H5N1 paper and thus termed this broader
+Besides index switch, we also observed switches involving the other motifs, which we demonstrated in our H5N1 paper and thus termed this broader
 observation as motif switching. We also witnessed that this was more complex than we had imagined as demonstrated by the illustration below.
 
 .. figure:: figs/dynamic.png
