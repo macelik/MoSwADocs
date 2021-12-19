@@ -34,17 +34,9 @@ The dominance of an index is challenged by its variants, where fitness change of
 changes the incidence of a given k-mer sequence across its overlapping positions, resulting in a sequence rank change, and thus, a motif change, 
 such as dominance switch between the major variant and the prevailing index. The figure below illustrates this phenomenon.
 
-.. figure:: figs/indexswitch.png
+.. figure:: figs/hadia-index.png
  
- The nine aligned overlapping nonamer positions (310–318, 311–319, etc.) represent the sliding windows of the alignment region. 
- Each nonamer position is shown with the index sequence, two of the variant nonatype sequences and the total number of remaining variant 
- nonatypes of incidence equal or below 10%. The first nonamer position, 310 to 318, is shown with the index sequence (41%) containing aa E at 
- the 9th position. The major variant (38%) contains the variable aa D at the corresponding position. A minor variant (11%) has a mutation 
- at aa position 7 relative to the index. A total of 37 nonatypes had individual incidences less or equal to 10%. The dominance of aa E in the 
- index is maintained for the next few nonamer positions. At position 314 to 322, index switching is observed, where the sequence with aa D 
- is now the index (41%) and the one with E is the major variant (35%). This relationship continued till position 316–324, with reversal of 
- sequence ranks to the original state at position 317–325, where the sequence with aa E is the index. At an index switching position, 
- the index is alternative to that expected, relative to the preceding position. From "Dissecting the Dynamics of HIV-1 Protein Sequence Diversity" by Hu Y, et al., 2013, PLoS ONE, 8(4), Materials and Methods section, Figure 8 (https://doi.org/10.1371/journal.pone.0059994.g008). CC BY.
+ **Sequence diversity motifs:** The classification of sequences at a given aligned nonamer position as characteristic diversity motifs is shown above for a model nonamer position of 20 sequences. The sequences are ranked according to their incidences. The sequence with the highest incidence (8/20) is classified as the “Index” nonamer, and all others are considered as “Total variants”. The most prevalent sequence among the total variants is classified as the “Major” variant, present in 5 of the 20 isolates. “Minor” variants comprise of sequences that are of lower incidence than the major variant, but are observed more than once; in this case, two distinct sequences, each repeated once, comprised the “Minor” variants (4/20). The three distinct sequences that are observed only once form the “Unique” variants group (3/20). The incidence of “Nonatypes”, which refers to all distinct variant nonamers (6/20), includes one major variant, two minor variants, and three unique variants for this model position.. From "Dissecting the Dynamics of HIV-1 Protein Sequence Diversity" by Hu Y, et al., 2013, PLoS ONE, 8(4), Supplemental Information section, Figure S1 (https://doi.org/10.1371/journal.pone.0059994.g008). CC BY.
  
  
 Motif Switches
