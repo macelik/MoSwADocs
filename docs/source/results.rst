@@ -39,9 +39,9 @@ Alignment View
 Users are able to view this alignment file in the short summary report, as well as download it in .aln format. This file also produced by the stand alone version. In this alignment view asterix(*) indicates motif switch, and colon(:) indicates switches at positions that have low support.
 We produce this for two reasons;
 
-  #.  Provide users an alignment view of all the switches observed in a given dataset, referenced against a consensus sequence built from the index sequences of the k-mer positions
+  #.  Provide users an alignment view of all the aligned kmer positions, users are able to observe motif switch positions referenced against a consensus sequence built from the index sequences. This allows users to spot neighboring and clustering motif switches as well as the possible inter motif relationship
   
-  #.  When index and major bla bla bla please visit how it works page for more detail DO NOT FORGET TO ADD A DESCRIPTION MF
+  #.  Its also to allow assement of neighboring motif switch positions for inter motif switches.
   
 Below is the showcase of the alignment view within the short summary page.  
   
@@ -99,7 +99,7 @@ The network plot shows only the user defined motif sites (default is all). It sh
 
  The positions where motif switches happen are laid at the mid-line of the network plot as nodes.
  
-    Moreoever, when a user hovers over the positions, an information pops up about what kind of switches are happening at the indicated position. You can inspect the example below. How to interpret: HERE IS A LONG EXPLANATION OF 
+    Moreoever, when a user hovers over the positions, an information pops up about what kind of switches are happening at the indicated position. You can inspect the example below.  
 
 .. raw:: html
     
