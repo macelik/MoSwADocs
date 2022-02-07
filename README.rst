@@ -5,4 +5,4 @@ This GitHub repo for Motif SWitch Analyser(MoSwA) documentation with some basic 
 
 Link to the MoSwA documentation:
 
-https://moswadocs.readthedocs.io/
+https://moswa.readthedocs.io/
